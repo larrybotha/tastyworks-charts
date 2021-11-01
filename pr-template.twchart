@@ -7,17 +7,17 @@
   "timeFrame": {
     "candlePeriodDto": {
       "candlePeriodValue": 1.0,
-      "candleType": "WEEK"
+      "candleType": "DAY"
     },
     "timePeriodDto": {
-      "timePeriodCount": 5,
+      "timePeriodCount": 1,
       "timePeriodName": "Y",
       "timePeriodResetField": 11,
       "timePeriodShiftField": 1
     }
   },
   "crosshairMode": "WITH_DATABOX",
-  "drawingMode": "PRICE_LEVEL",
+  "drawingMode": "NO",
   "chartSettings": {
     "currentThemeType": "DARK",
     "showSessionBreaks": false,
@@ -114,6 +114,22 @@
           "style": "SOLID"
         },
         "price": 24.871528776978415,
+        "color": {
+          "red": 93,
+          "green": 135,
+          "blue": 161,
+          "alpha": 255
+        },
+        "className": "PriceLevelModelDto"
+      }
+    ],
+    "SPY": [
+      {
+        "lineStyleDto": {
+          "width": 1,
+          "style": "SOLID"
+        },
+        "price": 437.9377826086956,
         "color": {
           "red": 93,
           "green": 135,
@@ -225,7 +241,7 @@
         "priceAxisUseFractionalPrices": true
       },
       "subgraphConfiguration": {
-        "subgraphHeight": 546
+        "subgraphHeight": 569
       }
     },
     {
@@ -273,7 +289,7 @@
         "priceAxisUseFractionalPrices": false
       },
       "subgraphConfiguration": {
-        "subgraphHeight": 73
+        "subgraphHeight": 95
       }
     },
     {
@@ -285,8 +301,8 @@
             "inputValues": {},
             "plots": [
               "WPR",
-              "OverSold",
-              "OverBought"
+              "OverBought",
+              "OverSold"
             ]
           },
           "plotSettings": {
@@ -304,20 +320,6 @@
               "colorCustomizationIsProhibited": false,
               "lineStyleCustomizationIsProhibited": false
             },
-            "OverBought": {
-              "color": {
-                "red": 178,
-                "green": 0,
-                "blue": 0,
-                "alpha": 255
-              },
-              "label": "OverBought",
-              "lineStyle": "SOLID",
-              "markerStyle": "NO",
-              "width": 1,
-              "colorCustomizationIsProhibited": false,
-              "lineStyleCustomizationIsProhibited": false
-            },
             "OverSold": {
               "color": {
                 "red": 178,
@@ -326,6 +328,20 @@
                 "alpha": 255
               },
               "label": "OverSold",
+              "lineStyle": "SOLID",
+              "markerStyle": "NO",
+              "width": 1,
+              "colorCustomizationIsProhibited": false,
+              "lineStyleCustomizationIsProhibited": false
+            },
+            "OverBought": {
+              "color": {
+                "red": 178,
+                "green": 0,
+                "blue": 0,
+                "alpha": 255
+              },
+              "label": "OverBought",
               "lineStyle": "SOLID",
               "markerStyle": "NO",
               "width": 1,
@@ -357,7 +373,7 @@
         "priceAxisUseFractionalPrices": false
       },
       "subgraphConfiguration": {
-        "subgraphHeight": 93
+        "subgraphHeight": 123
       }
     }
   ],
