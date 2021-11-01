@@ -1,0 +1,371 @@
+{
+  "symbol": "SPY",
+  "frameWidth": 1000,
+  "frameHeight": 788,
+  "priceType": "LAST",
+  "candleSessionType": "ANY",
+  "timeFrame": {
+    "candlePeriodDto": {
+      "candlePeriodValue": 1.0,
+      "candleType": "WEEK"
+    },
+    "timePeriodDto": {
+      "timePeriodCount": 5,
+      "timePeriodName": "Y",
+      "timePeriodResetField": 11,
+      "timePeriodShiftField": 1
+    }
+  },
+  "crosshairMode": "WITH_DATABOX",
+  "drawingMode": "PRICE_LEVEL",
+  "chartSettings": {
+    "currentThemeType": "DARK",
+    "showSessionBreaks": false,
+    "sessionBreaksStyle": "LONGDASHED",
+    "sessionBreaksOpacity": 10,
+    "extendedHoursOpacity": 1,
+    "rightMarginSettingsDto": {
+      "isRightMarginSelected": true,
+      "rightMarginValue": 5
+    },
+    "tradingLabelsPanelWidth": 200,
+    "drawingsToAdjust": [],
+    "magnetSensitivity": 10,
+    "topPadding": 10,
+    "bottomPadding": 10,
+    "hideAllDrawings": false,
+    "hideAllStudies": false,
+    "hideAllOrders": false,
+    "hideIndicatorsDescription": false,
+    "snapToCandle": false,
+    "fitDrawings": false,
+    "fitHighLow": false,
+    "fitOrdersPositions": false,
+    "showWicks": true,
+    "shouldGroupIndicators": true,
+    "shouldExpandGroupOfIndicators": false,
+    "historicCorporateEventModelDto": {
+      "earningsEvent": {
+        "showEvent": false,
+        "showEventLines": true,
+        "lineStyleDto": {
+          "width": 2,
+          "style": "SOLID"
+        }
+      },
+      "dividendsEvent": {
+        "showEvent": false,
+        "showEventLines": true,
+        "lineStyleDto": {
+          "width": 2,
+          "style": "SOLID"
+        }
+      }
+    }
+  },
+  "drawingModels": {},
+  "sharedSymbolSettings": {
+    "VIX": [
+      {
+        "lineStyleDto": {
+          "width": 1,
+          "style": "SOLID"
+        },
+        "price": 20.210107913669063,
+        "color": {
+          "red": 93,
+          "green": 135,
+          "blue": 161,
+          "alpha": 255
+        },
+        "className": "PriceLevelModelDto"
+      },
+      {
+        "lineStyleDto": {
+          "width": 1,
+          "style": "SOLID"
+        },
+        "price": 15.149136690647481,
+        "color": {
+          "red": 93,
+          "green": 135,
+          "blue": 161,
+          "alpha": 255
+        },
+        "className": "PriceLevelModelDto"
+      },
+      {
+        "lineStyleDto": {
+          "width": 1,
+          "style": "SOLID"
+        },
+        "price": 28.867032374100717,
+        "color": {
+          "red": 93,
+          "green": 135,
+          "blue": 161,
+          "alpha": 255
+        },
+        "className": "PriceLevelModelDto"
+      },
+      {
+        "lineStyleDto": {
+          "width": 1,
+          "style": "SOLID"
+        },
+        "price": 24.871528776978415,
+        "color": {
+          "red": 93,
+          "green": 135,
+          "blue": 161,
+          "alpha": 255
+        },
+        "className": "PriceLevelModelDto"
+      }
+    ],
+    "SSO": []
+  },
+  "subgraphModels": [
+    {
+      "indicatorModels": [
+        {
+          "symbolRepresentation": "BAR",
+          "className": "SymbolModelDto",
+          "drawingModelDtos": {}
+        },
+        {
+          "chartlessIndicatorSubscriptionDto": {
+            "packName": "Built-in",
+            "indicatorId": "SMA",
+            "inputValues": {
+              "displace": 0,
+              "price": "CLOSE",
+              "length": 7
+            },
+            "plots": [
+              "SMA"
+            ]
+          },
+          "plotSettings": {
+            "SMA": {
+              "color": {
+                "red": 85,
+                "green": 206,
+                "blue": 255,
+                "alpha": 255
+              },
+              "label": "SMA",
+              "lineStyle": "SOLID",
+              "markerStyle": "NO",
+              "width": 1,
+              "colorCustomizationIsProhibited": false,
+              "lineStyleCustomizationIsProhibited": false
+            }
+          },
+          "plotGroupSettings": {},
+          "verticalLineSettings": {},
+          "selectionModel": {
+            "selectedPlots": [
+              "SMA"
+            ],
+            "selectedPlotGroups": [],
+            "selectedVerticalLines": []
+          },
+          "className": "StudyModelDto",
+          "drawingModelDtos": {}
+        },
+        {
+          "chartlessIndicatorSubscriptionDto": {
+            "packName": "Built-in",
+            "indicatorId": "SMA",
+            "inputValues": {
+              "displace": 0,
+              "price": "CLOSE",
+              "length": 30
+            },
+            "plots": [
+              "SMA"
+            ]
+          },
+          "plotSettings": {
+            "SMA": {
+              "color": {
+                "red": 255,
+                "green": 85,
+                "blue": 85,
+                "alpha": 255
+              },
+              "label": "SMA",
+              "lineStyle": "SOLID",
+              "markerStyle": "NO",
+              "width": 1,
+              "colorCustomizationIsProhibited": false,
+              "lineStyleCustomizationIsProhibited": false
+            }
+          },
+          "plotGroupSettings": {},
+          "verticalLineSettings": {},
+          "selectionModel": {
+            "selectedPlots": [
+              "SMA"
+            ],
+            "selectedPlotGroups": [],
+            "selectedVerticalLines": []
+          },
+          "className": "StudyModelDto",
+          "drawingModelDtos": {}
+        }
+      ],
+      "priceAxisConfiguration": {
+        "logic": "NORMAL",
+        "valueTransformer": "DIRECT",
+        "maximum": -Infinity,
+        "minimum": Infinity,
+        "priceAxisIncrements": "0.01",
+        "priceAxisUseFractionalPrices": true
+      },
+      "subgraphConfiguration": {
+        "subgraphHeight": 546
+      }
+    },
+    {
+      "indicatorModels": [
+        {
+          "packageName": "Built-in",
+          "indicatorName": "Volume (Subgraph)",
+          "indicatorDescription": "",
+          "indicatorAttribute": "LOWER",
+          "uptickColor": {
+            "red": 170,
+            "green": 204,
+            "blue": 255,
+            "alpha": 27
+          },
+          "downtickColor": {
+            "red": 223,
+            "green": 170,
+            "blue": 255,
+            "alpha": 27
+          },
+          "neutralColor": {
+            "red": 174,
+            "green": 216,
+            "blue": 242,
+            "alpha": 27
+          },
+          "alpha": 27,
+          "infoboxColor": {
+            "red": 93,
+            "green": 135,
+            "blue": 161,
+            "alpha": 255
+          },
+          "className": "VolumeModelDto",
+          "drawingModelDtos": {}
+        }
+      ],
+      "priceAxisConfiguration": {
+        "logic": "NORMAL",
+        "valueTransformer": "DIRECT",
+        "maximum": -Infinity,
+        "minimum": Infinity,
+        "priceAxisIncrements": "0.01",
+        "priceAxisUseFractionalPrices": false
+      },
+      "subgraphConfiguration": {
+        "subgraphHeight": 73
+      }
+    },
+    {
+      "indicatorModels": [
+        {
+          "chartlessIndicatorSubscriptionDto": {
+            "packName": "Built-in",
+            "indicatorId": "WilliamsPercentRange",
+            "inputValues": {},
+            "plots": [
+              "WPR",
+              "OverSold",
+              "OverBought"
+            ]
+          },
+          "plotSettings": {
+            "WPR": {
+              "color": {
+                "red": 85,
+                "green": 206,
+                "blue": 255,
+                "alpha": 255
+              },
+              "label": "WPR",
+              "lineStyle": "SOLID",
+              "markerStyle": "NO",
+              "width": 1,
+              "colorCustomizationIsProhibited": false,
+              "lineStyleCustomizationIsProhibited": false
+            },
+            "OverBought": {
+              "color": {
+                "red": 178,
+                "green": 0,
+                "blue": 0,
+                "alpha": 255
+              },
+              "label": "OverBought",
+              "lineStyle": "SOLID",
+              "markerStyle": "NO",
+              "width": 1,
+              "colorCustomizationIsProhibited": false,
+              "lineStyleCustomizationIsProhibited": false
+            },
+            "OverSold": {
+              "color": {
+                "red": 178,
+                "green": 0,
+                "blue": 0,
+                "alpha": 255
+              },
+              "label": "OverSold",
+              "lineStyle": "SOLID",
+              "markerStyle": "NO",
+              "width": 1,
+              "colorCustomizationIsProhibited": false,
+              "lineStyleCustomizationIsProhibited": false
+            }
+          },
+          "plotGroupSettings": {},
+          "verticalLineSettings": {},
+          "selectionModel": {
+            "selectedPlots": [
+              "WPR",
+              "OverSold",
+              "OverBought"
+            ],
+            "selectedPlotGroups": [],
+            "selectedVerticalLines": []
+          },
+          "className": "StudyModelDto",
+          "drawingModelDtos": {}
+        }
+      ],
+      "priceAxisConfiguration": {
+        "logic": "NORMAL",
+        "valueTransformer": "DIRECT",
+        "maximum": -Infinity,
+        "minimum": Infinity,
+        "priceAxisIncrements": "0.01",
+        "priceAxisUseFractionalPrices": false
+      },
+      "subgraphConfiguration": {
+        "subgraphHeight": 93
+      }
+    }
+  ],
+  "recentIndicators": [
+    {
+      "pack": "Built-in",
+      "indicator": "SMA"
+    }
+  ],
+  "priceIncrements": "0.01"
+}
