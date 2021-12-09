@@ -16,7 +16,7 @@
       "timePeriodShiftField": 1
     }
   },
-  "crosshairMode": "WITH_DATABOX",
+  "crosshairMode": "CROSSHAIR",
   "drawingMode": "NO",
   "chartSettings": {
     "currentThemeType": "DARK",
@@ -65,6 +65,7 @@
   },
   "drawingModels": {},
   "sharedSymbolSettings": {
+    "DJX": [],
     "VIX": [
       {
         "lineStyleDto": {
@@ -230,6 +231,47 @@
           },
           "className": "StudyModelDto",
           "drawingModelDtos": {}
+        },
+        {
+          "chartlessIndicatorSubscriptionDto": {
+            "packName": "Built-in",
+            "indicatorId": "SMA",
+            "inputValues": {
+              "displace": 0,
+              "price": "CLOSE",
+              "length": 200
+            },
+            "plots": [
+              "SMA"
+            ]
+          },
+          "plotSettings": {
+            "SMA": {
+              "color": {
+                "red": 158,
+                "green": 177,
+                "blue": 194,
+                "alpha": 255
+              },
+              "label": "SMA",
+              "lineStyle": "SOLID",
+              "markerStyle": "NO",
+              "width": 1,
+              "colorCustomizationIsProhibited": false,
+              "lineStyleCustomizationIsProhibited": false
+            }
+          },
+          "plotGroupSettings": {},
+          "verticalLineSettings": {},
+          "selectionModel": {
+            "selectedPlots": [
+              "SMA"
+            ],
+            "selectedPlotGroups": [],
+            "selectedVerticalLines": []
+          },
+          "className": "StudyModelDto",
+          "drawingModelDtos": {}
         }
       ],
       "priceAxisConfiguration": {
@@ -241,7 +283,7 @@
         "priceAxisUseFractionalPrices": true
       },
       "subgraphConfiguration": {
-        "subgraphHeight": 569
+        "subgraphHeight": 454
       }
     },
     {
@@ -289,7 +331,7 @@
         "priceAxisUseFractionalPrices": false
       },
       "subgraphConfiguration": {
-        "subgraphHeight": 95
+        "subgraphHeight": 107
       }
     },
     {
@@ -373,7 +415,7 @@
         "priceAxisUseFractionalPrices": false
       },
       "subgraphConfiguration": {
-        "subgraphHeight": 123
+        "subgraphHeight": 151
       }
     }
   ],
